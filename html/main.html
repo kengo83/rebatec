@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <h1>マイナビ転職</h1>
+            </blockquote>
+        </figure>
+        <div class="row mb-3">
+            <label for="inputkeyword3" class="col-sm-2 col-form-label"><h3>キーワード</h3></label>
+            <div class="col-sm-10">
+                <input type="keyword" class="form-control" id="inputkeyword3">
+            </div>
+        </div>
+        <h3>勤務地</h3>
+        <div class="box2">
+            <form name="prefecture_Form" action="">
+                <label>
+                    <input type="checkbox" name="pref_name" value="p01+" onclick="execute()">
+                    北海道
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p02+" onclick="execute()">
+                    青森県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p03+" onclick="execute()">
+                    岩手県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p04+" onclick="execute()">
+                    宮城県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p05+">
+                    秋田県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p06+">
+                    山形県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p07+">
+                    福島県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p08+">
+                    茨城県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p09+">
+                    栃木県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p10+">
+                    群馬県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p11+">
+                    埼玉県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p12+">
+                    千葉県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p13+">
+                    東京都
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p14+">
+                    神奈川県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p15+">
+                    新潟県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p16+">
+                    山梨県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p17+">
+                    長野県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p18+">
+                    富山県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p19+">
+                    石川県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p20+">
+                    福井県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p21+">
+                    岐阜県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p22+">
+                    静岡県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p23+">
+                    愛知県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p24+">
+                    三重県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p25+">
+                    滋賀県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p26+">
+                    京都府
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p27+">
+                    大阪府
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p28+">
+                    兵庫県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p29+">
+                    奈良県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p30+">
+                    和歌山県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p31+">
+                    鳥取県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p32+">
+                    島根県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p33+">
+                    岡山県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p34+">
+                    広島県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p35+">
+                    山口県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p36+">
+                    徳島県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p37+">
+                    香川県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p38+">
+                    愛媛県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p39+">
+                    高知県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p40+">
+                    福岡県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p41+">
+                    佐賀県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p42+">
+                    長崎県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p43+">
+                    熊本県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p44+">
+                    大分県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p45+">
+                    宮崎県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p46+">
+                    鹿児島県
+                </label>
+                <label>
+                    <input type="checkbox" name="pref_name" value="p47+">
+                    沖縄県
+                </label>
+            </form>
+        </div>
+        <h3>職種</h3>
+        <div class="box2">
+            <form name="job_Form" action="">
+                <label>
+                    <input type="checkbox" name="job_name" value="o11+">
+                    営業
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o12+">
+                    販売・フード・アミューズメント
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o13+">
+                    医療・福祉
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o14+">
+                    企画・経営
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o15+">
+                    建築・土木
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o16+">
+                    ITエンジニア
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o17+">
+                    電気・電子・機械・半導体
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o18+">
+                    医薬・食品・化学・素材
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o19+">
+                    コンサルタント・金融・不動産専門職
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1A+">
+                    クリエイティブ
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1B+">
+                    技能工・設備・配送・農林水産・他
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1C+">
+                    公共サービス
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1D+">
+                    管理・事務
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1E+">
+                    美容・ブライダル・ホテル・交通
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1F+">
+                    保育・教育・通訳
+                </label>
+                <label>
+                    <input type="checkbox" name="job_name" value="o1G+">
+                    WEB・インターネット・ゲーム
+                </label>    
+            </form>   
+        </div>
+        <div class="row mb-3">
+            <label for="inputkeyword3" class="col-sm-2 col-form-label"><h3>ファイル名</h3></label>
+            <div class="col-sm-10">
+                <input type="keyword" class="form-control" id="inputkeyword4" placeholder=".csvで終わらせてください">
+            </div>
+            </div>
+        <div class="row mb-3">
+            <label for="inputkeyword3" class="col-sm-2 col-form-label"><h5>csvファイルを保存するフォルダ名</h5></label>
+            <div class="col-sm-10">
+                <input type="keyword" class="form-control" id="inputkeyword5" placeholder="フォルダ名を入力して下さい">
+            </div>
+        </div>
+        <div class="search_button">
+            <input type="button" class="btn btn-primary btn-lg" id="btn5" value="検索">
+        </div>
+        <h4 class="result">検索結果を表示</h4>
+        <textarea id="company_textarea" rows="10" cols="60"></textarea>
+    </div>
+    <script type="text/javascript">
+        let pref_number = "";
+        (() => {
+            let prefElms = document.querySelectorAll("[name='pref_name']")
+            for(let elm of prefElms){
+                elm.addEventListener('click', ()=>{
+                    execute();
+                });
+            }
+        })();
+        
+        function execute(){
+            let prefElms = document.querySelectorAll("[name='pref_name']")
+            pref_number = "";
+            for(let elm of prefElms){
+                if(elm.checked){
+                    console.log(elm.value);
+                    pref_number += elm.value;
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        let job_number = "";
+        function job(){
+            let jobelms = document.querySelectorAll("[name='job_name']")
+            for(let je of jobelms){
+                je.addEventListener('click', ()=>{
+                    job_execute();
+                });
+            }
+        }
+
+        function job_execute(){
+            let jobelms = document.querySelectorAll("[name='job_name']")
+            job_number = "";
+            for (let prejob of jobelms){
+                if(prejob.checked){
+                    console.log(prejob.value);
+                    job_number += prejob.value;
+                }
+            }
+        }
+    </script>
+    <script>
+        job();
+    </script>
+    <script type="text/javascript" src="./eel.js"></script>
+    <script>
+        document.getElementById("btn5").addEventListener('click', () => {
+            if (inputkeyword3.value == "") { 
+                company_textarea.value = ""
+                eel.no_keyword_main(pref_number,job_number,inputkeyword5.value,inputkeyword4.value)
+            } else {
+                company_textarea.value = ""
+                eel.main(pref_number,job_number,inputkeyword3.value,inputkeyword5.value,inputkeyword4.value)
+            }
+        })
+
+        eel.expose(view_company_name)
+        function view_company_name(text){
+            company_textarea.value += text + '\n'
+        }
+    </script>
+</body>
+</html>
